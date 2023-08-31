@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aylla Christinne</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <img src="./assets/img2.jpeg" alt="Foto de Aylla Christinne"  class="avatar" />
+      <div class="texts-container">
+        <h1 class="primary-text">Aylla Christinne</h1>
+        <p class="secondary-text">Front-End Developer</p>
+        <p class="secondary-text">ReactJS | TypeScript</p>
+      </div>
+      <div class="buttons-container">
+        <button class="button" onclick=" window.open('https://www.linkedin.com/in/aylla-christinne-rodrigues-766892173/', '_blank')">
+          <img src="./assets/logo-linkedin.png" class="icon" alt="Logo do LinkedIn"/>
+          LinkedIn
+        </button>
+        <button class="button" onclick=" window.open('https://github.com/AyllaChristinne', '_blank')">
+          <img src="./assets/logo-github.png" class="icon" alt="Logo do GitHub"/>
+          GitHub
+        </button>
+        <button id="buttonEmail" class="button" onclick="handleClickEmail()">
+          <img src="./assets/icon-email.png" class="icon" alt="Ícone de envelope"/>
+          E-mail
+        </button>
+        <span id="snackbar">Successfully copied e-mail!</span>
+      </div>
+    </div>
+  </body>
+</html>
