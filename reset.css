@@ -1,7 +1,16 @@
 * {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Inter', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
+  user-select: none;
+}
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-green: hsl(75, 94%, 57%);
+  --color-grey: hsl(0, 0%, 20%);
+  --color-dark-grey: hsl(0, 0%, 12%);
+  --color-off-black: hsl(0, 0%, 8%);
 }
